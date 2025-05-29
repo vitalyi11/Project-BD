@@ -1,0 +1,158 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e1e1e;
+  padding: 10px 20px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+.nav-links li a, 
+.navbar a, 
+.nav-links li {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-links li a:hover, 
+.navbar a:hover, 
+.nav-links li:hover {
+  color: #cccccc;
+  text-decoration: none;
+}
+
+.search-dropdown {
+  position: absolute;
+  right: 0;
+  top: 40px;
+  background-color: #1e1e1e;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+  width: 250px;
+}
+
+.search-dropdown h3 {
+  color: white;
+}
+
+.apply-button {
+  background-color: #a04545;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.apply-button:hover {
+  background-color: #368a37;
+}
+
+.logo img {
+  width: 150px;
+  height: 90px;
+}
+
+.tags-list {
+  color: white;
+}
+
+.tag-checkbox {
+  display: block;
+  margin: 5px 0;
+  color: white;
+}
+
+/* New styles for user logged in */
+.user-logged-in {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.username {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.user-menu {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.user-menu-link {
+  color: #e0e0e0;
+  font-size: 12px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.user-menu-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.admin-link {
+  background-color: #4a148c;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.logout-button {
+  background-color: #a04545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+  background-color: #368a37;
+}
+
+.auth-links {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.login-link, .register-link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.register-link {
+  background-color: #af4c4c;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.login-link:hover {
+  color: #cccccc;
+}
+
+.register-link:hover {
+  background-color: #8a3a3a;
+}

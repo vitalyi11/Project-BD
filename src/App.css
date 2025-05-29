@@ -1,0 +1,168 @@
+.app {
+  background-color: #121212;
+  min-height: 100vh;
+  color: white;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.blog-title {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.blog-title .gaming {
+  color: #ff4500;
+}
+
+.blog-sections {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.blog-section {
+  background-color: #1e1e1e;
+  padding: 15px;
+  border-radius: 8px;
+  width: 30%;
+}
+
+.blog-section h2 {
+  color: #888;
+}
+
+.blog-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.blog-details {
+  margin-top: 10px;
+}
+
+.tags {
+  margin-top: 10px;
+}
+
+.tag {
+  background-color: #ff4500;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  font-family: 'Jaro';
+}
+
+@font-face {
+  font-family: 'Jaro';
+  src: local('Jaro'), url(./Jaro.ttf) format('opentype');
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* App layout */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.main-nav a:hover, .main-nav a.active {
+  background-color: #444;
+}
+
+.user-controls {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.logout-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: #c0392b;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.page-content {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.page-content h1 {
+  margin-bottom: 20px;
+  color: #333;
+}

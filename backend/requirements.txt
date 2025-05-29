@@ -1,0 +1,10 @@
+Flask==2.3.3
+Flask-Cors==4.0.0
+Flask-SQLAlchemy==3.1.1
+SQLAlchemy==2.0.23
+Flask-Login==0.6.2
+authlib==1.2.1
+python-dotenv==1.0.0
+PyJWT==2.8.0
+werkzeug==2.3.7
+stripe==7.4.0
