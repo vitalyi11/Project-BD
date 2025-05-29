@@ -31,6 +31,8 @@ client_url = os.environ.get('CLIENT_URL', 'http://localhost:5173')
 # Enable CORS
 CORS(app, supports_credentials=True, origins=["http://localhost:5173"])
 
+#XDDD
+
 # Initialize database
 db.init_app(app)
 
