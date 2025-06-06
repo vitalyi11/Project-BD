@@ -54,3 +54,4 @@ Aplikacja backendowa Flask z systemem uwierzytelniania, płatnościami Stripe i 
 - ADMIN_EMAIL=admin@example.com
 - ADMIN_PASSWORD=admin123
 
+# Kacper Kwiatek && Aleksandra Tworek 
